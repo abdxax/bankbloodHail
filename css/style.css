@@ -1,0 +1,160 @@
+/* Genral css */
+
+header{
+	background-image:url("../page/he.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.7;
+}
+
+.section-title{
+	padding-bottom:50px;
+	padding-top: 40px;
+}
+
+.section-title h2{
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+}
+.section-title h2:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	width: 60px;
+	height: 1px;
+	background-color: #cb2828;
+	margin-left: -30px;
+}
+.login-body{
+	background-image: url("../page/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+
+}
+.panel{
+	background: transparent;
+}
+
+
+/*=====================================*/
+
+.img img{
+	display: block;
+	/*margin:0 auto;*/
+	/*margin-right: auto;*/
+}
+.text-logo{
+	text-align: center;
+	color: #404040;
+    
+}
+.forms-index{
+	margin-left: 10px;
+}
+.info-det{
+
+	margin:0 auto;
+}
+.pano{
+	margin-top: 50px;
+}
+
+.btn-header{
+	
+	background-color:transparent;
+}
+.btn-default{
+	margin-bottom: 30px;
+}
+.btn-default,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:visited,
+{
+
+	/*background-color:red;
+	border-color: #404040;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 19px;
+	border-radius: 3px;
+	-webkit-transition:all 5s;
+	-moz-transition:all 5s;
+	-o-transition:all 5s;
+	transition:all 5s;*/
+	-webkit-transition:all 5s;
+	-moz-transition:all 5s;
+	-o-transition:all 5s;
+	transition:all 5s;*/
+	
+}
+.btnr{
+
+}
+.btn-default:hover{
+	background-color: #cb2828;
+	color: #fff;
+	
+}
+.login{
+	margin-bottom: ;
+	
+}
+.logo{
+	margin-left: 450px;
+}
+
+
+}
+.panel-body h4{
+	text-align: center;
+	background-color: transparent; 
+}
+input[type=email]{
+	background-color: transparent; 
+}
+input[type=password]{
+	background-color: transparent; 
+}
+.msgs{
+	color: white;
+	position: absolute;
+	top: 50px;
+	left:70px;
+
+}
+/*=====index page for hospital=====*/
+
+.panel-heading i{
+	display: block;
+	font-size: 7em;
+	text-align: center;
+}
+
+.hosp-body{
+	background-image: url("../page/hospital/msr2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+
+}
+
+.users-body{
+	background-image: url("../page/hospital/m1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+
+}

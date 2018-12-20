@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+    <meta name="viewpower" content="width=device-width, initial-scale=1"><!-- thisi is very importent for responsive website -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<!-- Header -->
+<section>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6">
+				<div class="col-md-12">
+					<div class="text-center">
+					<center><h3>عرض حالات التبرع</h3></center>
+                       
+					</div>
+				</div>
+               
+				<form class="form-inline">
+					<label for="city">المدينة</label>
+					<select class="form-control" id="city">
+						<option>حائل</option>
+					</select>
+                    <label for="blood">فصيلة الدم</label>
+					<select class="form-control" id="blood">
+						<option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+					</select>
+
+					<input type="submit" name="sub" class="btn btn-info" value="بحث">
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Tabel for result-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<table class="table">
+					<thead>
+						<tr>
+							<th></th>
+							<th>الاسم </th>
+							<th> المستشفى </th>
+							<th>رقم الملف </th>
+							<th>الكميه </th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/jquery.js"></script>
+
+</body>
+</html>
